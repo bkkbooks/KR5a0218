@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0218/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0218/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太乙火府奏告祈禳儀
+  date: '2015-08-28 23:41:01.483557'
+  source:
+    repository: kanripo
+    path: KR5a0218
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0218_000-HFL.yaml, hash: 'sha256:302d991c69cde8c8d69190ca4d3e9dc764c0b4157ad099b930a53acba6678873'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0218_000-HFL.markers.yaml, hash: 'sha256:98fdd6a5f3c4f51efef3c09817b8e3eadffe7f09b6e830647eb266e2f8870b78'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0218_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 4767
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:9498667746ecda28134e179ceef4a408ae018bf47c4d58da949a2f05550b3fc0
